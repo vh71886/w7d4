@@ -1,1 +1,30 @@
 /* PHASE 3: Layout */
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    font-size: 17px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px, 5px, 5px, 3px;
+}
+
+.dropdown_list li {
+    padding: 7px;
+}
+
+li ul {
+    border-style: solid;
+    border-color: black;
+}
