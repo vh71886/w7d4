@@ -25,3 +25,7 @@
     border: black solid;
     border-top: 0px;
 }
+
+.dropdown_list li:hover {
+    background-color: lightgrey;
+}
