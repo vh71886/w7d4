@@ -13,12 +13,22 @@ header {
     border-style: solid; */
 }
 
-h1 {
+.navcontainer:hover {
+    background-color: black;
+}
+
+.navcontainer {
     border: 1px;
     border-style: solid;
     border-top: 0px;
     border-bottom: 0px;
     border-color: white;
+}
+div > ul > li:hover {
+    background-color: black;
+}
+
+h1 {
     padding: 10px;
     display: inline-block
 }
@@ -35,8 +45,4 @@ header, ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.profile {
-    background-color: black;
 }
