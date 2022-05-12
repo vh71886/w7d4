@@ -5,12 +5,20 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
+    font: inherit;
+    text-decoration: inherit;
     box-sizing: inherit;
-
+    text-align: inherit;
+    color: inherit;
+    background: transparent;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
 }
 
 ul {
-    /* appearance: none; */
+    appearance: none;
     list-style: none;
 }
 
