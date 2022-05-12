@@ -51,5 +51,7 @@ input[type="submit"] {
 /* Clearfix */
 
 .group:after {
-  // ...
+  content: "";
+  display: table;
+  clear: both;
 }
