@@ -6,14 +6,17 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
+	background-color: $light-blue;
+	border-color: $dark-blue;
+	color: #fff;
+	font-weight: 700;
 	// padding:
 	// border-radius:
 	// transition:
